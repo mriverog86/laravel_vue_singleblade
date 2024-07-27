@@ -156,7 +156,7 @@ export default createRouter({
 12. Integrate the router with the Vue instance inside `./resources/js/app.js` file:
 
 ```javascript
-import router from "./router/router";
+import router from "./router";
 import { createApp } from "vue";
 import App from "./App.vue";
 
@@ -206,7 +206,7 @@ export default createRouter({
 });
 ```
 
-17. Modify the Vue entry file to make it dynamic. Vue Router provides RouterView built-in component, which exposes slots that can be used to dynamically render route components. Go to `./resources/js/App`.vue and modify it as follows:
+17. Modify the Vue entry file to make it dynamic. Vue Router provides RouterView built-in component, which exposes slots that can be used to dynamically render route components. Go to `./resources/js/App.vue` and modify it as follows:
 
 ```jsx
 <template>
